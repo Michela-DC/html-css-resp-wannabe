@@ -6,29 +6,45 @@
         padding: 0;
         box-sizing: border-box;
     }
-    
-    #lezioni .row{
+
+    .row{
         width: 100%;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        background-color: #F2F2CD;
+        align-items: center; 
         margin-top: 0;
-        padding: 10px 0;
+        padding: 15px 0 10px 0;
     }
 
-    #lezioni .row>.left, #lezioni .row>.right {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    #lezioni .row img {
+    .row img {
         width: 27%;
         height: 27%;
     }
 
-    #lezioni h1{
+    h1, .row>.left, .row>.center{
         margin-bottom: 20px;
     }
+
+    /* lezioni -------------------------- */
+    
+    #lezioni .row{
+        background-color: #F2F2CD;
+    }
+
+    #lezioni .row>.left, #lezioni .row>.right {
+        width: 100%;
+    }
+
+    /* steps -------------------------- */
+
+    #steps .row{
+        background-color: #F9F9F9;
+    }
+
+    #steps .row>.left, #steps .row>.center, #steps .row>.right {
+        width: 100%;
+    }
+
+
 
 }
