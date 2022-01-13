@@ -48,3 +48,52 @@
     }
 }
 
+/* BONUS TABLET */
+
+@media screen and (min-width: 421px) and (max-width: 992px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Common */
+
+    .row{
+        width: 98%;
+        margin-top: 0;
+        padding: 20px 0;
+    }  
+
+    #lezioni img, #steps img, #why img {
+        height: 110px;
+        margin-bottom: 10px;
+    }
+
+    h1{
+        margin-bottom: 20px;
+    }
+
+    #lezioni, #why{
+        background-color: #ffece6;
+    }
+
+    /* Individual */
+
+    #why .row{
+        width: 80%;
+    }
+
+    #why .row>.first, #why .row>.second, #why .row>.third {
+        margin-top: 0;
+    }
+
+    #why .row>.first, #why .row>.second{
+        margin-bottom: 20px;
+    }
+
+    
+
+   
+}
