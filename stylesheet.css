@@ -7,8 +7,7 @@
         box-sizing: border-box;
     }
 
-    /* COMMON */
-
+    /* Common*/
     .row{
         width: 100%;
         display: flex;
@@ -19,8 +18,7 @@
     }    
 
     #lezioni img, #steps img, #why img {
-        width: 27%;
-        height: 27%;
+        height: 90px;
     }
 
     h1, .left, .central, .first, .second{
@@ -28,32 +26,25 @@
         width: 100%;
     }
 
-    /* lezioni -------------------------- */
-    
-    #lezioni .row{
+    #lezioni .row, #why .row{
         background-color: #F2F2CD;
     }
+
+    /* Individual */
 
     #lezioni .row>.left, #lezioni .row>.right {
         width: 95%;
     }
 
-    /* steps -------------------------- */
 
     #steps .row>.left, #steps .row>.central, #steps .row>.right {
         width: 95%;
     }
 
-    /* why -------------------------- */
-
-    #why .row{
-        background-color: #F2F2CD;
-    }
     
     #why .row>.first, #why .row>.second, #why .row>.third {
         width: 95%;
         margin-top: 0;
     }
-
-
 }
+
